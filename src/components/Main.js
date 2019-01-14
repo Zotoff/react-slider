@@ -3,6 +3,8 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
 
+import Slider from './Slider';
+
 const Repair = styled.div`
     color: #000;
     font-size: 40px;
@@ -48,7 +50,7 @@ class Main extends React.Component {
                     <CallBtn>Отправить заявку</CallBtn>
                 </Col>
                 <Col lg={6} lgOffset={1}>
-
+                    <Slider />
                 </Col>
             </Row>
         );
