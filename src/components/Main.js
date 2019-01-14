@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import Slider from './Slider';
 
 const Repair = styled.div`
-    color: #000;
+    color: #ffffff;
     font-size: 40px;
     font-weight: 700;
     line-height: 30px;
@@ -18,7 +18,7 @@ const Repair = styled.div`
     }
 `
 const LightText = styled.div`
-    color: #000;
+    color: #ffffff;
     font-size: 18px;
     line-height: 28px;
     font-weight: 300;
